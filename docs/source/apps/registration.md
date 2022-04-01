@@ -24,7 +24,7 @@ To proceed to the next step, click on "_Dashboard_".
 
 ## 2. Register application
 
-In the "_Register a web application_" section of the left bar you can upload the file with the openAPI specification.
+In the _Register or update_ section of _Admin console_ you can upload the file with the openAPI specification.
 For more information on this file, refer to the [OpenAPI specification section](mp-api.md).
 
 ![Registration input](../_static/img/app_registration/register_app.png)
@@ -33,28 +33,28 @@ If the registration process is successful, you will be provided with some meanin
 
 ![Registration output](../_static/img/app_registration/registration_output.png)
 
-In the case that you have developed the application following a setup similar to the aforementioned dummy app, the `client_id` and `client_secret` should be used when you start your application server to enable the Single Sing On mechanism via the MarketPlace platform.
+In the case that you have developed the application following a setup similar to the aforementioned get-started app, the `client_id` and `client_secret` should be used when you start your application server to enable the Single Sing On mechanism via the MarketPlace platform.
 
 Next, a platform admin should approve the registration.
 In the meantime, make sure that your application server is running and can be reached.
 
 ## 3. Link application
 
-Once the application has been approved, it will be available for linking in the "_Link to a web application_" section.
+Once the application has been approved, it will be available for linking in the _Link_ section of the admin console.
 
 ![Link the application](../_static/img/app_registration/link_app.png)
 
-Now the application information (client ID and capabilities) should be available in the "_Dashboard_".
+Now the application information (client ID and capabilities) should be available in the _Summary_.
 
 ![Application Dashboard](../_static/img/app_registration/app_info.png)
 
-To be able to use the application, one of the products should be purchased on the "_Pricing plans_" section.
+To be able to use the application, one of the products should be purchased on the _Pricing plans_ section.
 
 ![Purchasing a product](../_static/img/app_registration/pricing.png)
 
 ## 4. Test application
 
-You can directly test the communication with the newly registered application via MarketPlace on the "_Swagger viewer_".
+You can directly test the communication with the newly registered application via MarketPlace on the _Swagger viewer_.
 The endpoints shown there are directly generated based on the uploaded openAPI file.
 
 ![Swagger view](../_static/img/app_registration/swagger.png)
