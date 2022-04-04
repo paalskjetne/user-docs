@@ -1,9 +1,5 @@
 # Update an application
 
-```{warning}
-Temporarily not supported.
-```
-
 Once an application has already been registered, it can be updated without having to change the client ID and client secret values.
 
 ## 1. Update the .yml file
@@ -11,33 +7,14 @@ Once an application has already been registered, it can be updated without havin
 The `version` field must be updated each time the application is updated.
 The `client-id` provided in the initial registration should be included in the `x-oauth-client` section.
 
-If any products remain unchanged, their `product-id` should be included in the `products` description
+If any products remain unchanged, their `product-id` should be included in the `x-products` description.
 
-## 2. Update the application in MarketPlace
+## 2. Update the application on the MarketPlace
 
-TODO: This process is being reviewed in the latest version and has not been finalised yet.
+Upload the new version of the openAPI specification in the _Admin console_ of your application:
 
-Please re-register any application that needs to be updated for now
+![Update the application](../_static/img/app_registration/update_app.png)
 
-<!--
-### Fields that can be updated
+If the process was successful, you will be informed:
 
--  ``version`` must be different from already registered application version
--  ``x-products`` can be deleted or modified
--  ``x-image`` field can be updated
--  New ``paths`` with new capabilities can be added
--  ``x-application-name`` field can be updated
-
-### Fields that cannot be updated
-
-
--  ``x-application-id`` field should not be modified
--  ``x-external-hostname`` cannot be modified
--  ``servers`` field cannot be modified
--  Existing ``paths`` and capabilities cannot be modified or deleted
-
-## 3. Have an administrator approve the updated application
-
-An administrator needs to approve the application again for it to appear
-on the Marketplace page .
--->
+![Update output](../_static/img/app_registration/update_output.png)
