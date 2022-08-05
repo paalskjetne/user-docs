@@ -13,7 +13,7 @@ ADD requirements.txt .
 RUN pip install -r requirements.txt
 
 CMD sphinx-autobuild --host 0.0.0.0 docs/source docs/build/html \
-    --ignore /app/docs/source/capability_table.md \
+    --ignore /app/docs/source/apps/capability_table.md \
     --ignore /app/docs/source/apps/openAPI.json
 
 # Build:
