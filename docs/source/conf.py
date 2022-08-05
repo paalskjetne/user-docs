@@ -1,4 +1,8 @@
 """Configuration file for the Sphinx documentation builder."""
+import os
+import sys
+
+sys.path.append(os.path.relpath("."))
 from utils import get_api, source_read_handler, version
 
 # Project information

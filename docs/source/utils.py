@@ -11,9 +11,7 @@ capability_table_header = (
     "| ---- | :----: | ---------- | ----------- |",
 )
 capability_table_row = "\n| {type} | {method} | {capability} | {description} |"
-source_path = os.path.join(
-    os.path.dirname(os.path.abspath(__file__)), "docs", "source", "apps"
-)
+source_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "apps")
 
 
 def get_api(app):
