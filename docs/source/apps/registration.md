@@ -65,12 +65,12 @@ More information on swagger is available in the official [swagger documentation]
 When communicating with the registered application via the MarketPlace, the _query_ and _path_ parameters of your application endpoint should all be sent as _query_ parameters.
 
 __Example 1__<br>
-Application endpoint:<br><font style="color:gray">https://my-app.com/simulation/run/4f384c28-8671-4c7d-a6cf-22d127fc0866</font><br>
-MarketPlace endpoint:<br><font style="color:gray">https://www.materials-marketplace.eu/mp-api/proxy/<CLIENT_ID>/start_transformation?transformationId=4f384c28-8671-4c7d-a6cf-22d127fc0866</font>
+Application endpoint:<br><font style="color:gray">https://my-app.com/simulations/4f384c28-8671-4c7d-a6cf-22d127fc0866</font><br>
+MarketPlace endpoint:<br><font style="color:gray">https://www.materials-marketplace.eu/api/applications/proxy/<CLIENT_ID>/getTransformation?transformationId=4f384c28-8671-4c7d-a6cf-22d127fc0866</font>
 
 __Example 2__<br>
-Application endpoint:<br><font style="color:gray">https://my-app.com/simulation/run?transformationId=4f384c28-8671-4c7d-a6cf-22d127fc0866</font><br>
-MarketPlace endpoint:<br><font style="color:gray">https://www.materials-marketplace.eu/mp-api/proxy/<CLIENT_ID>/start_transformation?transformationId=4f384c28-8671-4c7d-a6cf-22d127fc0866</font>
+Application endpoint:<br><font style="color:gray">https://my-app.com/simulations?transformationId=4f384c28-8671-4c7d-a6cf-22d127fc0866</font><br>
+MarketPlace endpoint:<br><font style="color:gray">https://www.materials-marketplace.eu/api/applications/proxy/<CLIENT_ID>/getTransformation?transformationId=4f384c28-8671-4c7d-a6cf-22d127fc0866</font>
 ```
 
 ```{toctree}
