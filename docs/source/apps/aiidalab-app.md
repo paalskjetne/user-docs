@@ -17,43 +17,42 @@ You can use the OpenAPI specification from the example below:
 openapi: 3.0.0
 
 info:
-    title: AiiDAlab dummy App
-    description: OpenAPI Specification of the MarketPlace AiiDAlab deployment
-    version: 0.1.0
-    x-application-name: AiiDAlab dummy App
-    x-external-hostname: https://materials-marketplace.aiidalab.net
-    x-image: <logo-image>
-    x-contacts:
-        - <your email>
-    x-products:
-        - name: AiiDAlab dummy app
-          productId:
+  title: AiiDAlab dummy App
+  description: OpenAPI Specification of the MarketPlace AiiDAlab deployment
+  version: 0.1.0
+  x-application-name: AiiDAlab dummy App
+  x-external-hostname: https://materials-marketplace.aiidalab.net
+  x-image: <logo-image>
+  x-contacts:
+    - <your email>
+  x-products:
+    - name: AiiDAlab dummy app
+      productId:
 servers:
-    - url: https://materials-marketplace.aiidalab.net
+  - url: https://materials-marketplace.aiidalab.net
 
 paths:
-
-    /user-redirect/apps/apps/home/open_app.ipynb?app=<dummy>&redirect=user-redirect/apps/apps/<dummy>/<nb>.ipynb:
-        get:
-            description: dummy App
-            operationId: frontend
-            security:
-                - bearerAuth: []
-            responses:
-                '200':
-                    description: Success
-                '404':
-                    description: Page not found
+  /user-redirect/apps/apps/home/open_app.ipynb?app=<dummy>&redirect=user-redirect/apps/apps/<dummy>/<nb>.ipynb:
+    get:
+      description: dummy App
+      operationId: frontend
+      security:
+        - bearerAuth: []
+      responses:
+        "200":
+          description: Success
+        "404":
+          description: Page not found
 
 components:
-    securitySchemes:
-        bearerAuth:
-            type: http
-            scheme: bearer
-            bearerFormat: JWT
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
 ```
 
-Replace the `dummy` with your app name, set the `<logo-image>`, `<your emal>` and the path to the startup notebook. 
+Replace the `dummy` with your app name, set the `<logo-image>`, `<your emal>` and the path to the startup notebook.
 Using this OpenAPI specification to register the App as the type resident app of the Host AiiDAlab App (ID: `37afd7dc-31b5-4f59-ad53-167f666c80eb`).
 ![AiiDAlab resident App register](../_static/img/app_registration/aiidalab-app-registration.png)
 
