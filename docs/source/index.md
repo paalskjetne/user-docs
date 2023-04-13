@@ -79,6 +79,20 @@ apps/update
 
 ```{toctree}
 :hidden: true
+:caption: Use Cases
+:maxdepth: 2
+
+ucs/use_cases
+ucs/uc1
+ucs/uc2
+ucs/uc3
+ucs/uc4
+ucs/uc5
+ucs/uc6
+```
+
+```{toctree}
+:hidden: true
 :caption: Miscellaneous
 :maxdepth: 2
 
