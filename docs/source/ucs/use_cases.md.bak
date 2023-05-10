@@ -1,0 +1,48 @@
+# Use cases
+
+To deomonstrate industrially relevant use of the MarketPlace plattform a total of six use cases were developed. These were
+
+1. **Laser powder bed fusion L-PBF**  [Use case 1](./uc1.md).
+1. **Laser powder bed fusion L-PBF**  [Use case 2](./uc2.md).
+1. **Laser powder bed fusion L-PBF**  [Use case 3](./uc3.md).
+1. **Laser powder bed fusion L-PBF**  [Use case 4](./uc4.md).
+1. **Laser powder bed fusion L-PBF**  [Use case 5](./uc5.md).
+1. **Laser powder bed fusion L-PBF**  [Use case 6](./uc6.md).
+
+
+In order to offer a unified form of communication, the MarketPlace has defined a list
+of typical functionalities, which we call _capabilities_, that a user might expect and an application can choose to support.
+Each capability will have a name and a definition of the expected parameters and errors it can generate.
+
+A capability is associated with an operation ID (capability and operation ID should match) and a specification of a _unique_ REST-API endpoint + HTTP method.
+For instance, there can only be one capability under the `/dataset` path for the `get` method.
+
+Capabilities are case sensitive.
+
+## Use case 1
+
+
+## Use case 2
+
+
+## Use case 3
+
+
+
+## Use case 4
+
+
+
+## Use case 5
+
+
+
+## Use case 6
+
+
+
+
+
+```
+some command line command
+```
