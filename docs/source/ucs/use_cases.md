@@ -13,6 +13,7 @@ Implementation details for each use case can be found by clicking the individual
 
 Below we give a more prosaic overview of each of the use cases.
 <br><br>
+
 ## Use case 1: Laser powder bed fusion for additive manufacturing of super-alloys
 
 `Executing patners: MTU, Fraunhofer, ACCESS, ANSYS-Granta, EPFL`
