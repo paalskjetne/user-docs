@@ -12,37 +12,43 @@ To deomonstrate industrially relevant use of the MarketPlace plattform a total o
 Implementation details for each use case can be found by clicking the individual links.
 
 Below we give a more prosaic overview of each of the use cases.
-
+<br><br>
 ## Use case 1: Laser powder bed fusion for additive manufacturing of super-alloys
 
 `Executing patners: MTU, Fraunhofer, ACCESS, ANSYS-Granta, EPFL`
-![./uc1-01](./figures/uc1-01.png)
 
+<img src="./figures/uc1-01.png" width="40%" height="40%">
+<br><br>
 ## Use case 2: Screen printing of solid oxide fuel cells
 
 `Executing patners: Bosch, DCS, ANSYS-Granta`
-![./uc2-01](./figures/uc2-01.png)
 
+<img src="./figures/uc2-01.png" width="40%" height="40%" />
+<br><br>
 ## Use case 3: Nanoparticle production and catalst testing
 
 `Executing patners: JM, LUR, SINTEF, ANSYS-Granta`
-![./uc3-01](./figures/uc3-01.png)
 
+<img src="./figures/uc3-01.png" width="35%" height="35%">
+<br><br>
 ## Use case 4: Ceramic injection moulding for medical applications
 
 `Executing patners: HES, DCS, ANSYS-Granta`
-![./uc4-01](./figures/uc4-01.png)
 
+<img src="./figures/uc4-01.png" width="40%" height="40%">
+<br><br>
 ## Use case 5: Printing of Photovoltaic Thin Films
 
 `Executing patners: Crystalsol, UCL`
-![./uc5-01](./figures/uc5-01.png)
 
+<img src="./figures/uc5-01.png" width="80%" height="80%" >
+<br><br>
 ## Use case 6: MatCalc demo
 
 `Executing patners: MBN, Fraunhofer`
-![./uc6-01](./figures/uc6-01.png)
 
+<img src="./figures/uc6-01.png" width="40%" height="40%" >
+<br><br>
 ```
 some command line command
 ```
