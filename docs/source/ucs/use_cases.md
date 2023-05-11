@@ -42,7 +42,7 @@ Below we give a more prosaic overview of each of the use cases.
 
 `Executing patners: Crystalsol, UCL`
 
-<img src="./figures/uc5-01.png" width="80%" height="80%" >
+<img src="./figures/uc5-01.png" width="40%" height="40%" >
 <br><br>
 ## Use case 6: MatCalc demo
 
