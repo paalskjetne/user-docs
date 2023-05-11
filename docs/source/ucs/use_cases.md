@@ -18,7 +18,7 @@ Below we give a more prosaic overview of each of the use cases.
 
 `Executing patners: MTU, Fraunhofer, ACCESS, ANSYS-Granta, EPFL`
 
-<img src="./figures/uc1-01.png" width="40%" height="40%">
+<img src="./figures/uc1-01.png" width="40%" height="40%"   >
 <br><br>
 ## Use case 2: Screen printing of solid oxide fuel cells
 
@@ -50,6 +50,7 @@ Below we give a more prosaic overview of each of the use cases.
 
 <img src="./figures/uc6-01.png" width="40%" height="40%" >
 <br><br>
+
 ```
-some command line command
+pip install marketplace
 ```
