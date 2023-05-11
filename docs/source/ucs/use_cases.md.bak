@@ -1,48 +1,56 @@
 # Use cases
 
-To deomonstrate industrially relevant use of the MarketPlace plattform a total of six use cases were developed. These were
+To deomonstrate industrially relevant use of the MarketPlace plattform a total of six use cases were developed. These were:
 
-1. **Laser powder bed fusion L-PBF**  [Use case 1](./uc1.md).
-1. **Laser powder bed fusion L-PBF**  [Use case 2](./uc2.md).
-1. **Laser powder bed fusion L-PBF**  [Use case 3](./uc3.md).
-1. **Laser powder bed fusion L-PBF**  [Use case 4](./uc4.md).
-1. **Laser powder bed fusion L-PBF**  [Use case 5](./uc5.md).
-1. **Laser powder bed fusion L-PBF**  [Use case 6](./uc6.md).
+1. **Laser powder bed fusion L-PBF** [Use case 1](./uc1.md).
+1. **Screen printing of solid oxide fuel cells** [Use case 2](./uc2.md).
+1. **Nanoparticle production and catalst testing** [Use case 3](./uc3.md).
+1. **Ceramic injection moulding for medical applications** [Use case 4](./uc4.md).
+1. **Printing of Photovoltaic Thin Films** [Use case 5](./uc5.md).
+1. **MatCalc demo** [Use case 6](./uc6.md).
 
+Implementation details for each use case can be found by clicking the individual links.
 
-In order to offer a unified form of communication, the MarketPlace has defined a list
-of typical functionalities, which we call _capabilities_, that a user might expect and an application can choose to support.
-Each capability will have a name and a definition of the expected parameters and errors it can generate.
+Below we give a more prosaic overview of each of the use cases.
+<br><br>
 
-A capability is associated with an operation ID (capability and operation ID should match) and a specification of a _unique_ REST-API endpoint + HTTP method.
-For instance, there can only be one capability under the `/dataset` path for the `get` method.
+## Use case 1: Laser powder bed fusion for additive manufacturing of super-alloys
 
-Capabilities are case sensitive.
+`Executing patners: MTU, Fraunhofer, ACCESS, ANSYS-Granta, EPFL`
 
-## Use case 1
+<img src="./figures/uc1-01.png" width="40%" height="40%"   >
+<br><br>
+## Use case 2: Screen printing of solid oxide fuel cells
 
+`Executing patners: Bosch, DCS, ANSYS-Granta`
 
-## Use case 2
+<img src="./figures/uc2-01.png" width="40%" height="40%" />
+<br><br>
+## Use case 3: Nanoparticle production and catalst testing
 
+`Executing patners: JM, LUR, SINTEF, ANSYS-Granta`
 
-## Use case 3
+<img src="./figures/uc3-01.png" width="35%" height="35%">
+<br><br>
+## Use case 4: Ceramic injection moulding for medical applications
 
+`Executing patners: HES, DCS, ANSYS-Granta`
 
+<img src="./figures/uc4-01.png" width="40%" height="40%">
+<br><br>
+## Use case 5: Printing of Photovoltaic Thin Films
 
-## Use case 4
+`Executing patners: Crystalsol, UCL`
 
+<img src="./figures/uc5-01.png" width="40%" height="40%" >
+<br><br>
+## Use case 6: MatCalc demo
 
+`Executing patners: MBN, Fraunhofer`
 
-## Use case 5
-
-
-
-## Use case 6
-
-
-
-
+<img src="./figures/uc6-01.png" width="40%" height="40%" >
+<br><br>
 
 ```
-some command line command
+pip install marketplace
 ```
